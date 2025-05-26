@@ -8,12 +8,12 @@ const Leftbar = () => {
             <video className='w-[194px] h-[110px]' src={assets.spiral} autoPlay loop muted></video>
             <div className='flex flex-col items-start text-start gap-2'>
                 <p className='font-semibold text-[16px]'>List</p>
-                <ul className='flex flex-col text-center gap-2 grid grid-cols-2 text-[12px]'>
-                    <li className='border border-white rounded-[50px]'>Monitoring</li>
-                    <li className='border border-white rounded-[50px]'>Cybersecurity</li>
-                    <li className='border border-white rounded-[50px]'>Assesement</li>
-                    <li className='border border-white rounded-[50px]'>Management</li>
-                    <li className='border border-white rounded-[50px]'>Audits</li>
+                <ul className='flex flex-col text-center gap-2 grid grid-cols-2 text-[12px] p-4'>
+                    <li className='border border-white rounded-[50px] px-4 py-2'>Monitoring</li>
+                    <li className='border border-white rounded-[50px] px-4 py-2'>Cybersecurity</li>
+                    <li className='border border-white rounded-[50px] px-4 py-2'>Assesement</li>
+                    <li className='border border-white rounded-[50px] px-4 py-2'>Management</li>
+                    <li className='border border-white rounded-[50px] px-4 py-2'>Audits</li>
                 </ul>
             </div>
 
